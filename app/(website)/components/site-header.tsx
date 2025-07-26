@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { Globe, Search, ShoppingCart, User } from "lucide-react"
 import { Input } from "@/components/ui/input"
-import Image from "next/image"
   
 export function SiteHeader() {
   return (
