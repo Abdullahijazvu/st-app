@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 import { ShoppingCart, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -15,7 +15,7 @@ interface Product {
   price: number
   originalPrice?: number
   rating: number
-  image: string
+  image: StaticImageData
   discount?: number
   sold?: string
 }

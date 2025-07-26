@@ -1,6 +1,6 @@
 "use client"
 
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import { Star } from "lucide-react"
 import t1 from '@/images/test1.png'
 import { Truck, Sparkles, CalendarPlus, Gem, Package, ShieldCheck, ShieldAlert, CreditCard, Headphones, Gift, Award, Leaf } from "lucide-react"
@@ -78,7 +78,7 @@ const items: Items[] = [
 interface Testimonial {
   id: number
   name: string
-  image: string
+  image: StaticImageData
   rating: number
   text: string
 }

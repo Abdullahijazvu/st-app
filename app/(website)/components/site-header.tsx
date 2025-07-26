@@ -11,7 +11,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full bg-white">
     <div className="container flex flex-wrap items-center py-3 gap-4 md:gap-6">
       <Link href="/" className="flex items-center gap-2">
-        <Image src={Img} height={40} width={120} alt="Masco" className="h-10" />
+        <h2 className="text-xl font-bold text-[#FF8A3C]">Masco</h2>
       </Link>
 
       <div className="flex items-start gap-2">

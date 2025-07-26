@@ -11,10 +11,10 @@ import CatImg9 from '@/images/cat-9.png'
 import CatImg10 from '@/images/cat-10.png'
 import CatImg11 from '@/images/cat-11.png'
 import CatImg12 from '@/images/cat-12.png'
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 
 interface CategoryImage {
-  src: string
+  src: StaticImageData
   alt: string
 }
 

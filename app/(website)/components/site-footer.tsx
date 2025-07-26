@@ -5,8 +5,9 @@ import Pay1 from '@/images/pay1.png'
 import Pay2 from '@/images/pay2.png'
 import Pay3 from '@/images/pay3.png'
 import Pay4 from '@/images/pay4.png'
+import type { StaticImageData } from "next/image"
 
-const paymentImages: Record<string, string> = {
+const paymentImages: Record<string, StaticImageData> = {
   paypal: Pay1,
   mastercard: Pay2,
   visa: Pay3,
