@@ -83,9 +83,11 @@ const products: Product[] = [
 
 export function ProductCarousel() {
     const scrollRef = useRef<HTMLDivElement>(null)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [canScrollLeft, setCanScrollLeft] = useState(false)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [canScrollRight, setCanScrollRight] = useState(true)
-  
+    
     const checkScroll = () => {
       if (scrollRef.current) {
         const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current

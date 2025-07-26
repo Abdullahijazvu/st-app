@@ -1,13 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import { ChevronDown, Globe, MapPin, Search, ShoppingCart, User } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Globe, Search, ShoppingCart, User } from "lucide-react"
 import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import Img from '@/images/logo.png'
 import Image from "next/image"
-import { useState } from "react"
   
 export function SiteHeader() {
   return (
@@ -21,7 +17,7 @@ export function SiteHeader() {
       <div className="flex items-start gap-2">
           <div className="h-4 w-4 mt-1" />
           <div className="flex flex-col">
-            <span className="text-[15px] font-normal">One-Stop Wholesale Jewelry No.1 Retailer's Choice</span>
+            <span className="text-[15px] font-normal">One-Stop Wholesale Jewelry No.1 Retailers Choice</span>
           </div>
         </div>
   

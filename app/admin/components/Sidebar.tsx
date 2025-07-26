@@ -1,8 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "primereact/button";
-import { LayoutDashboard, ShoppingCart, Box, Users, Menu } from "lucide-react";
+import { LayoutDashboard, ShoppingCart, Box, Users } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

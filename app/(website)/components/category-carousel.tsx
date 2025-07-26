@@ -39,7 +39,9 @@ const categories = [
 
 export function CategoryCarousel() {
     const scrollRef = useRef<HTMLDivElement>(null)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [canScrollLeft, setCanScrollLeft] = useState(false)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [canScrollRight, setCanScrollRight] = useState(true)
   
     const checkScroll = () => {
